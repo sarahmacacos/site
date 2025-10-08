@@ -764,21 +764,22 @@ const volume = document.getElementById("volume");
 
 function loadSong(i){
   index = i;
-  const songName = playlist[index].replace('.mp3', '');
+  // Remove 'songs/' e '.mp3' do nome
+  const songName = playlist[index].replace(/^songs\//, '').replace('.mp3', '');
   
   nowPlaying.classList.add('fade');
   setTimeout(() => {
-    audio.src = playlist[index];
-    nowPlaying.textContent = "Tocando: " + songName;
-    nowPlaying.classList.remove('fade');
-    const playPromise = audio.play();
-    if (playPromise !== undefined) {
-        playPromise.then(() => {
-            playBtn.textContent = "⏸";
-        }).catch(() => {
-            playBtn.textContent = "▶";
-        });
-    }
+  audio.src = playlist[index];
+  nowPlaying.textContent = "Tocando: " + songName;
+  nowPlaying.classList.remove('fade');
+  const playPromise = audio.play();
+  if (playPromise !== undefined) {
+    playPromise.then(() => {
+      playBtn.textContent = "⏸";
+    }).catch(() => {
+      playBtn.textContent = "▶";
+    });
+  }
   }, 300);
 }
 function togglePlay(){
@@ -814,7 +815,8 @@ volume.addEventListener("input",()=>audio.volume=volume.value);
 
 // Prepara a primeira música para tocar
 audio.src = playlist[0];
-nowPlaying.textContent = "Tocando: " + playlist[0].replace('.mp3', '');
+// Remove 'songs/' e '.mp3' do nome ao iniciar
+nowPlaying.textContent = "Tocando: " + playlist[0].replace(/^songs\//, '').replace('.mp3', '');
 playBtn.textContent="▶";
 
 
