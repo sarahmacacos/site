@@ -27,7 +27,7 @@
       radial-gradient(900px 600px at -10% -10%, var(--grad-b), transparent 40%);
     animation: background-pan 25s linear infinite;
   }
-  /* ✨ NOVO FUNDO COM GIF ✨ */
+ 
   body::after {
     content: '';
     position: fixed;
@@ -59,6 +59,7 @@
   header .subtitle:nth-of-type(1) { animation-delay: 0.2s; }
   header .subtitle:nth-of-type(2) { animation-delay: 0.3s; }
   header .bar { animation-delay: 0.4s; }
+
 
   header{padding:32px 16px;text-align:center}
   .title{font-size:clamp(26px,5vw,42px);font-weight:800}
@@ -101,18 +102,41 @@
   }
   .reason-list { text-align: left; line-height: 1.6; padding-inline-start: 20px;}
   /* Atraso para o efeito cascata */
-  #reasons.visible h2:nth-of-type(1) { transition-delay: 0.2s; }
-  #reasons.visible .reason-list:nth-of-type(1) li:nth-child(1) { transition-delay: 0.3s; }
-  #reasons.visible .reason-list:nth-of-type(1) li:nth-child(2) { transition-delay: 0.4s; }
-  #reasons.visible .reason-list:nth-of-type(1) li:nth-child(3) { transition-delay: 0.5s; }
-  #reasons.visible .reason-list:nth-of-type(1) li:nth-child(4) { transition-delay: 0.6s; }
-  #reasons.visible .reason-list:nth-of-type(1) li:nth-child(5) { transition-delay: 0.7s; }
-  #reasons.visible h2:nth-of-type(2) { transition-delay: 0.9s; }
-  #reasons.visible .reason-list:nth-of-type(2) li:nth-child(1) { transition-delay: 1.0s; }
-  #reasons.visible .reason-list:nth-of-type(2) li:nth-child(2) { transition-delay: 1.1s; }
-  #reasons.visible .reason-list:nth-of-type(2) li:nth-child(3) { transition-delay: 1.2s; }
-  #reasons.visible .reason-list:nth-of-type(2) li:nth-child(4) { transition-delay: 1.3s; }
-  #reasons.visible .reason-list:nth-of-type(2) li:nth-child(5) { transition-delay: 1.4s; }
+#reasons.visible h2:nth-of-type(1) { transition-delay: 0.2s; }
+#reasons.visible .reason-list:nth-of-type(1) li:nth-child(1) { transition-delay: 0.3s; }
+#reasons.visible .reason-list:nth-of-type(1) li:nth-child(2) { transition-delay: 0.4s; }
+#reasons.visible .reason-list:nth-of-type(1) li:nth-child(3) { transition-delay: 0.5s; }
+#reasons.visible .reason-list:nth-of-type(1) li:nth-child(4) { transition-delay: 0.6s; }
+#reasons.visible .reason-list:nth-of-type(1) li:nth-child(5) { transition-delay: 0.7s; }
+#reasons.visible .reason-list:nth-of-type(1) li:nth-child(6) { transition-delay: 0.8s; }
+#reasons.visible .reason-list:nth-of-type(1) li:nth-child(7) { transition-delay: 0.9s; }
+#reasons.visible .reason-list:nth-of-type(1) li:nth-child(8) { transition-delay: 1.0s; }
+#reasons.visible .reason-list:nth-of-type(1) li:nth-child(9) { transition-delay: 1.1s; }
+#reasons.visible .reason-list:nth-of-type(1) li:nth-child(10) { transition-delay: 1.2s; }
+#reasons.visible .reason-list:nth-of-type(1) li:nth-child(11) { transition-delay: 1.3s; }
+#reasons.visible .reason-list:nth-of-type(1) li:nth-child(12) { transition-delay: 1.4s; }
+#reasons.visible .reason-list:nth-of-type(1) li:nth-child(13) { transition-delay: 1.5s; }
+#reasons.visible .reason-list:nth-of-type(1) li:nth-child(14) { transition-delay: 1.6s; }
+#reasons.visible .reason-list:nth-of-type(1) li:nth-child(15) { transition-delay: 1.7s; }
+
+#reasons.visible h2:nth-of-type(2) { transition-delay: 1.9s; }
+#reasons.visible .reason-list:nth-of-type(2) li:nth-child(1) { transition-delay: 2.0s; }
+#reasons.visible .reason-list:nth-of-type(2) li:nth-child(2) { transition-delay: 2.1s; }
+#reasons.visible .reason-list:nth-of-type(2) li:nth-child(3) { transition-delay: 2.2s; }
+#reasons.visible .reason-list:nth-of-type(2) li:nth-child(4) { transition-delay: 2.3s; }
+#reasons.visible .reason-list:nth-of-type(2) li:nth-child(5) { transition-delay: 2.4s; }
+#reasons.visible .reason-list:nth-of-type(2) li:nth-child(6) { transition-delay: 2.5s; }
+#reasons.visible .reason-list:nth-of-type(2) li:nth-child(7) { transition-delay: 2.6s; }
+#reasons.visible .reason-list:nth-of-type(2) li:nth-child(8) { transition-delay: 2.7s; }
+#reasons.visible .reason-list:nth-of-type(2) li:nth-child(9) { transition-delay: 2.8s; }
+#reasons.visible .reason-list:nth-of-type(2) li:nth-child(10) { transition-delay: 2.9s; }
+#reasons.visible .reason-list:nth-of-type(2) li:nth-child(11) { transition-delay: 3.0s; }
+#reasons.visible .reason-list:nth-of-type(2) li:nth-child(12) { transition-delay: 3.1s; }
+#reasons.visible .reason-list:nth-of-type(2) li:nth-child(13) { transition-delay: 3.2s; }
+#reasons.visible .reason-list:nth-of-type(2) li:nth-child(14) { transition-delay: 3.3s; }
+#reasons.visible .reason-list:nth-of-type(2) li:nth-child(15) { transition-delay: 3.4s; }
+#reasons.visible .reason-list:nth-of-type(2) li:nth-child(16) { transition-delay: 3.5s; }
+
 
 
   .timer{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
@@ -138,7 +162,7 @@
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   }
   .timeline li.in-view { opacity: 1; transform: translateX(0); }
-  .timeline li::before { content: '💙'; position: absolute; left: -24px; top: 0; background: var(--bg); }
+  .timeline li::before { content: '☂'; position: absolute; left: -24px; top: 0; background: var(--bg); }
   
   #secret-input { padding:10px;border-radius:10px;border:1px solid rgba(184,208,255,.25); background:rgba(184,208,255,.06);color:var(--text); margin: 10px 5px 0;}
 
@@ -158,6 +182,30 @@
     margin-right: 12px;
     color: var(--primary);
   }
+
+  /* ESTILO DA NOVA SEÇÃO DE TREXOS */
+  .lyrics-quote {
+    margin-bottom: 2.5rem;
+  }
+  .lyrics-quote:last-child {
+    margin-bottom: 0;
+  }
+  .lyrics-quote blockquote {
+    margin: 0;
+    padding: 0.5em 1em;
+    border-left: 4px solid var(--primary);
+    font-style: italic;
+    font-size: 1.1rem;
+    color: var(--text);
+  }
+  .lyrics-quote figcaption {
+    text-align: right;
+    margin-top: 0.5em;
+    font-size: 0.9rem;
+    color: var(--accent);
+  }
+  /* FIM DO ESTILO DA NOVA SEÇÃO */
+
 
   /* PLAYER CUSTOM OUTLINE */
   .player {
@@ -201,12 +249,14 @@
   <div class="subtitle">Always & Forever.</div>
   <div class="bar">
     <button class="btn" onclick="show('reasons')">Porquês</button>
+    <button class="btn" onclick="show('feelings')">Medos</button>
     <button class="btn" onclick="show('timeline')">História</button>
     <button class="btn" onclick="show('playlist')">Músicas</button>
-    <button class="btn" onclick="show('letter')">Cartinha</button>
+    <button class="btn" onclick="show('lyrics')">Trexos</button> <button class="btn" onclick="show('letter')">Cartinha</button>
     <button class="btn" onclick="show('count')">Contagem</button>
-    <button class="btn" onclick="show('secret')">Segredo</button>
     <button class="btn" onclick="show('chance')">Segunda chance</button>
+
+    <button class="btn" onclick="show('secret')">Senha</button>
   </div>
 </header>
 
@@ -214,40 +264,69 @@
   <section id="reasons" class="card">
     <h2>Por que vale a pena tentar de novo</h2>
     <ul class="reason-list">
-      <li>Aprendi com os erros e hoje sei ouvir antes de falar.</li>
-      <li>O que sinto por você não é preencher vazio, mas escolha consciente.</li>
-      <li>Relacionamentos reais exigem paciência, cuidado e constância.</li>
-      <li>Quero respeitar seu tempo, seus limites e sua liberdade.</li>
-      <li>Vejo em nós algo leve, verdadeiro e duradouro.</li>
-    </ul>
+      <li>Aprendi com meus erros e estou mudando.</li>
+      <li>O que sinto por você não é para preencher um vazio.</li>
+      <li>Pois temos muito a viver ainda, e eu quero viver ao seu lado.</li>
+      <li>E eu QUERO estar com você TODOS os dias da minha vida ate o fim dela.</li>
+      <li>Porque não vale a pena, VALE A GALINHA INTEIRA...</li>
+      <li>Porque estou abrindo todo meu coração nisso tudo </li>
+      <li>Se ate a BIANCA me disse para continuar tentando, ela é sua melhor amiga, e entao se achasse que eu realmente nao mudei, ela não me falaria isso.</li>
+      <li>Eu aprendi com minhas experiências atuais muita coisa que antes eu não sabia</li>
+      <li>Eu não tinha tido o diagnostico de TEA e de TDAH, e agora que tenho, entendo tudo que antes eu não entendia, e sei das minhas limitações e consigo me colocar no lugar do outro agora. E sei que meus atos ruins causam dor, e eu nao quero nunca mais isso, muito menos com você</li>
+      <li>Porque você me motiva a sair da minha zona de conforto e isso é tao libertador...</li>
+      <li>Quem mais faria a porra de um site dedicado a pessoa que ama? EU JA TE FIZ DOISKKKK.</li>
+      <li>Apesar dos meus erros e falhas, eu sei que posso ser melhor para ti.</li>
+      <li>Porque nao vou parar até voce aceitar me dar essa chance.</li>
+            
+      </ul>
     <h2 style="margin-top:20px">Como sei que realmente te amo</h2>
     <ul class="reason-list">
-      <li>Sempre continuo escolhendo você.</li>
-      <li>Sinto paz ao imaginar um futuro ao seu lado.</li>
-      <li>Quero te apoiar nos seus sonhos e respeitar seus silêncios.</li>
-      <li>Meu medo não é ficar sozinho, mas não ser o melhor pra nós.</li>
-      <li>Te amo de forma madura: amor é escolha diária.</li>
+      <li>Quando penso em você, sinto paz de espirito.</li>
+      <li>Sinto felicidade imensa quando imagino um futuro ao seu lado.</li>
+      <li>Eu apenas sinto...</li>
+      <li>Dentre todas minhas incertezas, você é a única certeza.</li>
+      <li>Meu coração acelera quando estou perto de ti.</li>
+      <li>Porque voce me faz querer ser alguem melhor e merecedora de seu amor.</li>
+      <li>Quero estar com você nos piores e nos melhores momentos.</li>
+      <li>Porque eu vejo seus defeitos e ainda assim eu escolho te amar</li>
+      <li>Porque nunca foi apenas um momento, uma paixonite... </li>
+      <li>Porque eu quero arrumar a porra de um emprego e te levar para viajar em algum lugar MUITO FODA.</li>
+      <li>Porque eu te admiro.</li>
+      <li>Seu abraço é meu porto seguro</li>
+      <li>Mesmo depois de você ter me machucado, eu não consigo te odiar.</li>
+      <li>Porque voce tem o sorriso, os olhos, o cabelo... mais lindos que ja vi na vida.</li>
+      <li>Quero estar presente quando você estiver conquistando seu sonhos.</li>
+      <li>Porque você ainda é meu primeiro e o meu ultimo pensamento do dia.</li>
     </ul>
   </section>
+
+  <section id="feelings" class="card hidden">
+  <h2 style="color:#1100ff;">Medos e Verdades</h2>
+  <p>Refleti tanto nesse tempo desde a nossa conversa, e a verdade é que não é vazio que eu sinto, é na verdade medo.</p>
+  <p>Medo que se misturou com o vazio. “medo prolongado pode dar sensação de vazio, não ser suficiente, não ter rumo, então gera a impressão que “me falta algo” quando na verdade é uma cobrança interna que existe.”</p>
+  <p>Tenho medo de não conseguir ser alguém. medo da solidão se eu não conquistar meus objetivos. medo de nao conseguir me sustentar. medo de não conseguir ser capaz de fazer coisas que eu gostaria. medo de não ter um ótimo futuro pra frente como sempre falam. medo de não ser capaz de me formar. medo de não ser capaz…</p>
+  <p>Tenho insegurança e medo sobre minha capacidade. pq sempre vai ter alguém mais qualificado e capacitado que eu... e entao quando estou com meus amigos, tenho medo de não ser tão capaz igual eles.</p>
+  <p>E quando estou com você, eu não sinto esse medo.</p>
+</section>
 
   <section id="timeline" class="card hidden">
     <h2>Nossa História</h2>
     <ul class="timeline">
       <li>
         <strong>29 de Agosto de 2023</strong>
-        <p>A primeira mensagem. O começo de tudo, mal sabíamos o que vinha pela frente.</p>
+        <p>A primeira mensagem.</p>
       </li>
       <li>
-        <strong>15 de Setembro de 2023</strong>
-        <p>Nosso primeiro encontro. Lembro do seu sorriso e de como a conversa fluiu fácil.</p>
+        <strong>4 de Setembro de 2023</strong>
+        <p>Nosso primeiro encontro.</p>
       </li>
       <li>
-        <strong>05 de Outubro de 2023</strong>
-        <p>Aquela noite em que ficamos até tarde conversando e eu senti algo diferente.</p>
+        <strong>15 de Maio de 2024</strong>
+        <p>O dia que te prometi que ia te namorar</p>
       </li>
       <li>
         <strong>Hoje</strong>
-        <p>A chance de adicionar um novo capítulo feliz à nossa história.</p>
+        <p> Pedido de recomeço para nós.</p>
       </li>
     </ul>
   </section>
@@ -263,8 +342,250 @@
     </ul>
   </section>
 
+  <section id="lyrics" class="card hidden">
+    <h2>Nossos Trexos🎵</h2>
+    
+   <div class="lyrics-quote">
+  <blockquote>
+    "I was enchanted to meet you<br>
+    Please don't be in love with someone else<br>
+    Please don't have somebody waiting on you"
+  </blockquote>
+  <figcaption>— Enchanted, Taylor Swift</figcaption>
+</div>
+
+<div class="lyrics-quote">
+  <blockquote>
+    "Eu te queria a vida toda, te confesso<br>
+    Por mim, a gente nem precisa mais da estrada<br>
+    <br>
+    Eu vejo você longe e quero você perto <br>
+    Fica na minha sombra, eu posso ser teu rastro<br>
+    Não quero tu na linha, Vivo, morto ou Claro<br>
+    Eu quero tu na minha boca<br>
+    E a minha boca quer você<br>
+    Quer você"
+  </blockquote>
+  <figcaption>— Lisboa, ANAVITÓRIA</figcaption>
+</div>
+
+<div class="lyrics-quote">
+  <blockquote>
+    "I have loved you since we were 18.<br>
+    Long before we both thought the same thing.<br>
+    To be loved and to be in love."
+  </blockquote>
+  <figcaption>— 18, One Direction</figcaption>
+</div>
+    
+<div class="lyrics-quote">
+  <blockquote>
+    "E se o nosso romance tocasse no rádio?<br>
+    E se o noticiário falasse de nós?<br>
+    E se o resto da vida estivesse a um passo daqui?<br>
+    E se hoje pudesse ser quando eu te encontro?<br>
+    O começo de tudo"
+  </blockquote>
+  <figcaption>— Tenta Acreditar, ANAVITÓRIA</figcaption>
+</div>
+
+<div class="lyrics-quote">
+  <blockquote>
+    "You know I can't fight the feeling<br>
+    And every night I feel it<br>
+    Right now<br>
+    I wish you were here with me"
+  </blockquote>
+  <figcaption>— Right Now, One Direction</figcaption>
+</div>
+
+<div class="lyrics-quote">
+  <blockquote>
+    "Me diz quanto tempo for<br>
+    Sabe que eu te espero o quanto for<br>
+    Me diz quanto tempo, amor<br>
+    Sabe que eu te espero o quanto for"
+  </blockquote>
+  <figcaption>— <em>Ela</em>, Clarissa</figcaption>
+</div>
+
+<div class="lyrics-quote">
+  <blockquote>
+    "Ela é daquelas que tu gosta na primeira<br>
+    Se apaixona na segunda<br>
+    E perde a linha na terceira<br>
+    Ela é discreta e cultua bons livros<br>
+    E ama os animais, 'tá ligado eu sou o bicho"
+  </blockquote>
+  <figcaption>— <em>Ela Vai Voltar (Todos os Defeitos de uma Mulher Perfeita)</em>, Charlie Brown Jr.</figcaption>
+</div>
+
+<div class="lyrics-quote">
+  <blockquote>
+    "A vontade de te ver já é maior que tudo<br>
+    E não existem distâncias no meu novo mundo<br>
+    A vontade de te ver já é maior que tudo<br>
+    E não existem distâncias no meu novo mundo"
+  </blockquote>
+  <figcaption>— <em>Meu Novo Mundo</em>, Charlie Brown Jr.</figcaption>
+</div>
+
+<div class="lyrics-quote highlight">
+  <blockquote>
+    "Seu beijo pode me drogar, eu odeio me apaixonar<br>
+    Tudo que ela quer me dar, o amor pode me drogar<br>
+    Eu odeio me apaixonar, será que ela vai voltar<br>
+    Seu beijo pode me drogar, o amor pode me drogar<br>
+    <br>
+    Eu vou fazer por você o que for preciso<br>
+    Eu sei bem como é lindo o seu sorriso<br>
+    O que fazer sem você, eu perco meu juízo<br>
+    Baby eu quero te ter, como eu quero te ter<br>
+    <br>
+    Eu vou ser mais sincero, eu quero mais dose de amor<br>
+    Ela enlouquece, eu enlouqueço, o ritmo é enlouquecedor<br>
+    Eu quero um gole de vida, seu beijo me excita<br>
+    <br>
+    Ela é a mais linda, agora eu sei dar valor<br>
+    Como eu pude errar, deixar ela escapar<br>
+    Em segundos me perder e ter que recomeçar<br>
+    Eu tenho um pouco a dizer, eu prefiro fazer"
+  </blockquote>
+  <figcaption>— <em>A droga de Amor</em>, Ari</figcaption>
+</div>
+
+<div class="lyrics-quote">
+  <blockquote>
+    "Fico pensando onde está você<br>
+    E se você estaria pensando em me encontrar<br>
+    Como sou, onde estou e onde quero chegar?<br>
+    Como sou, como é que vai ser e onde vou te levar?<br>
+    Mas se você me ver, pode acenar pra mim<br>
+    Já pensou que louco te encontrar assim?<br>
+    Eu vou na boa, vou na fé, sei que vou te encontrar<br>
+    E quando eu te encontrar nós vamos comemorar!"
+  </blockquote>
+  <figcaption>— <em>Só Os Loucos Sabem</em>, Charlie Brown Jr.</figcaption>
+</div>
+
+<div class="lyrics-quote">
+  <blockquote>
+    "Quando eu te vejo eu começo a sorrir<br>
+    Eu começo a sorrir<br>
+    <br>
+    Não quero desperdiçar a chance de ter encontrado você<br>
+    Hoje o que eu mais quero é fazer você feliz<br>
+    Vejo as pessoas e sei que juntos nós podemos muito mais<br>
+    Eu vivo na espera de poder viver a vida com você"
+  </blockquote>
+  <figcaption>— <em>Lutar Pelo Que É Meu</em>, Charlie Brown Jr.</figcaption>
+</div>
+
+<div class="lyrics-quote">
+  <blockquote>
+    "Então vem ser minha, vem ser minha namorada<br>
+    Vem ser minha, vem ser minha gata<br>
+    Vem ser minha, vem ser minha namorada<br>
+    Vem ser minha, vem ser minha gata"
+  </blockquote>
+  <figcaption>— <em>Vem Ser Minha</em>, Charlie Brown Jr.</figcaption>
+</div>
+
+<div class="lyrics-quote">
+  <blockquote>
+    "Um abraço seu resolve tanta coisa<br>
+    Não me dê motivo pra fugir porque eu não quero<br>
+    Ser seu ou ser sincero?<br>
+    Me quer, eu me entrego<br>
+    Não sinto pela metade, baby, eu exagero<br>
+    <br>
+    Cê fala que tá mal, mas não quer saber o que eu sinto<br>
+    Eu só te falo o que é preciso<br>
+    Tento preservar o seu sorriso<br>
+    Tem momento que passa, mas não deixa de ser lindo<br>
+    <br>
+    Sua vida tá um tédio, vem comigo<br>
+    Cê sabe que te amo enquanto te fodo e te xingo<br>
+    Gostoso e carinhoso<br>
+    Não namore ninguém antes de lembrar o meu gosto (eu preciso, baby)"
+  </blockquote>
+  <figcaption>— <em>Samba In Paris</em>, Baco Exu do Blues</figcaption>
+</div>
+
+<div class="lyrics-quote">
+  <blockquote>
+    "Cê tem uma cara de quem vai foder minha vida<br>
+    O seu olhar é um caminho sem saída<br>
+    O seu corpo é um caminho sem saída<br>
+    Então só entro<br>
+    <br>
+    Na rua, ouvindo A$AP Rocky<br>
+    Pelados no bairro como se fosse Woodstock<br>
+    Outro bar, outro porre<br>
+    Somos livres, como girassóis de Van Gogh"
+  </blockquote>
+  <figcaption>— <em>Girassóis de Van Gogh</em>, Baco Exu do Blues</figcaption>
+</div>
+
+<div class="lyrics-quote">
+  <blockquote>
+    "Ah, se eu fosse você, eu voltava pra mim de novo<br>
+    São várias fãs, mas, amor, se acostume (por favor)<br>
+    Nem a morte me chama mais, pois sabe, você tem ciúmes<br>
+    Carnaval carnal entre as esquinas da sua coxa, prazer<br>
+    Mais molhada que Veneza, me afundo em você<br>
+    Me chupa no carro roubado<br>
+    99 foda, foda pra caralho<br>
+    Relação te cobra igual dinheiro emprestado"
+  </blockquote>
+  <figcaption>— <em>Me Desculpa Jay Z</em>, Baco Exu do Blues</figcaption>
+</div>
+
+<div class="lyrics-quote">
+  <blockquote>
+    "Te amo, desgraça<br>
+    Eu te amo, desgraça<br>
+    Eu te amo de graça<br>
+    Te amo, desgraça"
+  </blockquote>
+  <figcaption>— <em>Te Amo Disgraça</em>, Baco Exu do Blues</figcaption>
+</div>
+
+<div class="lyrics-quote">
+  <blockquote>
+    "Me deixe viver ou viva comigo<br>
+    Me mande embora ou me faça de abrigo<br>
+    California dream com uma dream girl<br>
+    Mas não sou gringo<br>
+    Camisa suada, estampada de flamingo"
+  </blockquote>
+  <figcaption>— <em>Flamingos</em>, Baco Exu do Blues</figcaption>
+</div>
+
+<div class="lyrics-quote">
+  <blockquote>
+    "Essa é a última breja<br>
+    Esquece o mundo<br>
+    Me beija<br>
+    Vivo entre coxas, entre curvas<br>
+    Entro em ti pra me proteger da chuva<br>
+   [...] <br>
+    Cê falando sobre a última noite<br>
+    Vamo transar como se fosse<br>
+    Me ame como se fosse<br>
+    Me chupe como se fosse<br>
+    <br>
+    Última noite<br>
+    Última, última noite<br>
+    Última noite<br>
+    Última, última noite"
+  </blockquote>
+  <figcaption>— <em>Última Noite</em>, Baco Exu do Blues</figcaption>
+</div>
+
+  </section>
   <section id="count" class="card hidden">
-    <h2>Contagem desde nossa primeira mensagem</h2>
+    <h2>Contagem desde nosso primeiro contato</h2>
     <p style="color:var(--accent)">29/08/2023 - 15:30</p>
     <br>
     <div class="timer">
@@ -277,14 +598,20 @@
 
   <section id="letter" class="card hidden">
     <h2>Cartinha</h2>
-    <p>Maria,</p>
-    <p>Escolho você com calma e verdade. Quero recomeçar simples: combinados claros, constância e respeito. Sem promessas vazias. Só prática.</p>
+    <p>“a sarah de agora não iria gostar da maria de agora” 
+    <p>eu discordo pra caralho. e reconheço isso justamente por ter amadurecido, e isso é sim mais motivos para eu me apaixonar mais por você.</p>
+    <p>eu já vi sua melhor e pior versão, nos momentos bons e nos ruins e te quero mesmo assim, e eu não ignoro seus defeitos, eu aprendi a amar eles, assim como eu amo você por inteira.</p>
+    <p>quero ser a pessoa que você pode contar quando você passar na faculdade, arrumar emprego, e também quando precisar falar com médicos quando alguém importante a você estiver no hospital, ou quando algo ruim acontecer. quero ser a pessoa que te ama por inteira mesmo sabendo de seus problemas, erros, defeitos, porque é assim que o amor de verdade é.</p>    
+    <p>eu te amo por completo e não vai ser algo da sua cabeça que vai mudar a verdade. Eu sempre tive vergonha e medo de quem eu era, mas agora eu tenho orgulho, e quero poder me gabar ao mundo que você é minha, que eu estou ao lado da pessoa mais incrivel de todas, e que não tenho vergonha alguma de demonstrar.</p>
+    <p>Quero te apresentar para a minha familia como namorada algum dia, e eu estou POUCO ME IMPORTANDO para o que irão pensar... Porque o que sinto por você é MUITO mais importante do que qualquer opiniao e julgamento alheio.</p>
+    <p>E eu peço desculpas por ter demorado tanto me tocar dessas coisas... Mas quero fazer certo dessa vez. Quero te mostrar para o mundo. Quero postar foto sua, nossa na porra do meu instagram pq tenho orgulho de ti, de estar com você.</p>
+    <p>E CARALHO EU GOSTO DE MULHERES, POUCO ME IMPORTA SE SÃO PRETAS, BRANCAS, ASIATICAS, SAPATONAS, PATY... SE SÃO MULHERES É O QUE ME IMPORTA. Pessoas mudam e gostos tambem (tantas pessoas que nao suportava coreano e agora tem eles como idolos)...</p>
     <p>— Sarah</p>
   </section>
   
   <section id="secret" class="card hidden" style="text-align: center;">
-    <h2>Um Segredo Para Você 🤫</h2>
-    <p>Digite nosso apelido secreto para revelar uma mensagem:</p>
+    <h2>Digite a resposta da pergunta anterior (Segunda Chance)</h2>
+    <p>Digite sua resposta "Sim" ou "Não":</p>
     <input type="text" id="secret-input" placeholder="A senha é...">
     <button class="btn" onclick="revealSecret()">Revelar</button>
     <p id="secret-message" style="display:none; margin-top:15px; font-size: 1.2rem; color:var(--ok);">
@@ -294,6 +621,11 @@
 
   <section id="chance" class="card hidden ask">
     <h2>Me dá uma segunda chance?</h2>
+    <p>não estou te pedindo em namoro, estou pedindo apenas uma nova oportunidade de mostrar quem eu sou e me tornei nesse tempo longe. e sinceramente eu não vou parar de pedir até você aceitar. e acredite… eu posso ser muito insistente e persuasiva. :) </p>
+    <p>não é fácil mas estou aqui, pois sei que vai valer a pena se você permitir.</p>
+    <p>acredite quando digo que não estou insistindo em nós porque é “mais fácil”, ou porque “me sinto incompleta por não ter ninguém” até porque sinceramente depois de 8/6 meses é mais fácil eu recomeçar com alguém novo do que insistir no que já teve fim.</p>
+    <p>mas eu insisto em nós porque quando penso em você, penso em tudo que podemos ainda viver, e eu sei que temos muito pela frente ainda. insisto pois vejo futuro mesmo quando você não vê.</p>
+    <p>pfv não seja cabeça dura, estou abrindo a porra do meu coração para ti nesse momento.</p>
     <div class="row">
       <button class="btn btn-ok" id="yes">Sim, uma conversa</button>
       <button class="btn" id="no">Não</button>
@@ -306,7 +638,7 @@
   </section>
 </main>
 
-<footer>Feito com carinho por Sarah 💙</footer>
+<footer>Feito com carinho pela sua eterna macaquinha 💙</footer>
 
 <div class="player">
   <div class="controls">
@@ -366,7 +698,7 @@ document.addEventListener('DOMContentLoaded', () => {
   void initialSection.offsetWidth;
   initialSection.classList.add('visible');
 
-  // ✨ TENTA INICIAR A MÚSICA AUTOMATICAMENTE ✨
+  // TENTA INICIAR A MÚSICA AUTOMATICAMENTE
   // Navegadores podem bloquear, exigindo um clique do usuário para iniciar.
   setTimeout(() => {
     const playPromise = audio.play();
@@ -399,7 +731,7 @@ const yesBtn=document.getElementById("yes");
 const noBtn=document.getElementById("no");
 const resp=document.getElementById("resp");
 yesBtn.onclick=()=>{
-  resp.textContent="💙 Eu também te amo, Maria.";
+  resp.innerHTML = `💙<p>Obrigada pela oportunidade de me deixar te mostrar que pessoas mudam, e que aos poucos eu posso reconstruir a confiança que um dia foi quebrada. E que nem tudo quebrado é para ser jogado fora.</p>`;
   loveVideo.style.display="block";
   loveVideo.scrollIntoView({behavior:"smooth"});
   loveVideo.play();
@@ -415,13 +747,14 @@ noBtn.onmouseenter=escapeNo; noBtn.onmousemove=escapeNo;
 
 /* ========= PLAYER ========= */
 const playlist = [
-  "Lisboa - ANAVITÓRIA.mp3",
-  "Tenta acreditar - ANAVITÓRIA.mp3",
-  "18 - One Direction.mp3",
-  "Right Now - One Direction.mp3",
-  "Ela - Clarissa.mp3",
-  "Enchanted Taylor's Version - Taylor.mp3"
+  "songs/Lisboa - ANAVITÓRIA.mp3",
+  "songs/Tenta acreditar - ANAVITÓRIA.mp3",
+  "songs/18 - One Direction.mp3",
+  "songs/Right Now - One Direction.mp3",
+  "songs/Ela - Clarissa.mp3",
+  "songs/Enchanted Taylor_s Version - Taylor Swift.mp3"
 ];
+
 let index = 0;
 const audio = new Audio();
 const playBtn = document.querySelector(".controls button:nth-child(2)");
@@ -506,22 +839,59 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.5 });
 timelineItems.forEach(item => observer.observe(item));
-
-/* ========= MENSAGEM SECRETA ========= */
+/* ========= MENSAGEM SECRETA (SIM/NÃO + TEXTO) ========= */
 function revealSecret() {
   const input = document.getElementById('secret-input');
   const message = document.getElementById('secret-message');
-  
-  // senha correta
-  const senhaCorreta = "281299";
-  
-  if (input.value.toLowerCase().trim() === senhaCorreta) {
-    message.style.display = 'block';
-  } else {
-    alert("Senha errada, tente de novo! 😉");
-    input.value = "";
+  const container = input.parentElement;
+
+  const resposta = input.value.toLowerCase().trim();
+
+  // remove resposta anterior
+  const old = document.getElementById('secret-response');
+  if (old) old.remove();
+
+  const box = document.createElement('div');
+  box.id = 'secret-response';
+  box.style.marginTop = '15px';
+  box.style.fontSize = '1.1rem';
+  box.style.lineHeight = '1.6';
+
+  if (resposta === 'sim') {
+    message.style.display = 'none';
+    box.innerHTML = `
+      <p>eu vou te tratar com respeito, sinceridade e transparência e confiança na nossa relação, e olharei com olhos de como você se sentiria, para assim nunca mais te magoar. eu prometo que você não vai se arrepender de me dar essa oportunidade de recomeço.</p>
+      <p>sendo assim, gostaria de propor um primeiro encontro digno, como se fosse a primeira vez. Você pode escolher o lugar e a data. Mas caso não tenha ideia: Local: bistrô? la fontilla? deck? data: quando você puder. sinceramente nada mais importa para mim se eu estiver junto contigo.</p>
+    `;
+  } 
+  else if (resposta === 'não' || resposta === 'nao') {
+    message.style.display = 'none';
+    box.innerHTML = `
+      <p style="color:#FF3030;">Eu entendo seu medo, de verdade... e na verdade eu tambem tenho, mas sei que darei o melhor de mim para isso se você me permitir porque eu QUERO estar ao seu lado. E caso você nao quiser mais, tudo bem, vou te respeitar, mas pelo menos me deixe tentar uma ultima vez... Pfv so peço que abra um pouco sua cabecinha para isso:( Ate porque você não conhece a nova Sarah e nem eu a nova Maria, e se a gente se surpreender? Pensa bem..</p>
+      <p> Não é possivel ser pior do que tudo que você ja passou depois de terminar comigo... Deixa eu te mostrar que quem quer faz. PFV VAIIIIIIIIIII
+    <br>
+    <br>
+      <button class="btn" onclick="mudarEscolha()">Quero mudar minha resposta</button>`;
+  } 
+  else {
+    alert('Digite apenas "Sim" ou "Não".');
+    input.value = '';
+    return;
   }
+
+  container.appendChild(box);
 }
+
+function mudarEscolha() {
+  const input = document.getElementById('secret-input');
+  const box = document.getElementById('secret-response');
+  const message = document.getElementById('secret-message');
+  message.style.display = 'none';
+  if (box) box.remove();
+  input.value = '';
+  input.focus();
+}
+
 </script>
 </body>
 </html>
