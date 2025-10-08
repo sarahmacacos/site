@@ -1,5 +1,4 @@
-# 💙 Site — Por Sarah
-## Primeira versão em HTML
+# Site💙
+### Primeira vez usando HTML
 
 Feito com carinho para alguém muito especial.
-Agora com novas cores, animações e detalhes que refletem tudo que aprendi.
